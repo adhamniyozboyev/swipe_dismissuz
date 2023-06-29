@@ -32,7 +32,7 @@ class _MyWidgetState extends State<MyWidget> {
                         ? '$item removed'
                         : '$item liked'),
                     action: SnackBarAction(
-                        label: 'Undo',
+                        label: 'Undo delete',
                         onPressed: () {
                           setState(() {
                             this._items.insert(index, item);
